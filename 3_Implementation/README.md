@@ -73,7 +73,7 @@ total=amt;
 
 }
 
-
+## Doxygen com code
  void display_all
 
 clrscr();
