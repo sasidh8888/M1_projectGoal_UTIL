@@ -11,9 +11,10 @@ HEADER FILES USED IN PROJECT
 
 CLASS USED
 
-
+*/
 ## 3_impl code
 ## FUNCTION TO PLACE ORDER AND MAKE BILL
+/*
 void place order()
 
 {
@@ -72,9 +73,10 @@ cout<<"\nProduct Number: "<<order_arr[x] <<"\nProduct Name:"<<pr.retname() <<"\n
 total=amt;
 
 }
-
+*/
 ## Doxygen com code
 ## FUNCTION TO READ ALL RECORDS FROM FILE
+/*
  void display_all
 
 clrscr();
@@ -114,9 +116,10 @@ cout<<"\n\n\n\nTHANK YOU FOR PLACING ORDER";
 getch();
 
 }
-
+*/
 ## compile the code
 ## FUNCTION TO MODIFY RECORD OF FILE
+*/
 void modify_product()
 (
 
@@ -163,8 +166,9 @@ getch();
 fp.close();
 
 if(found==0)
-
+*/
 ## FUNCTION TO READ SPECIFIC RECORD FROM FILE
+/*
 void display_sp(int n)
 
 {
@@ -196,9 +200,9 @@ cout<<"\n\nSorry!!! Record not exist";
 getch();
 
 }
-
+*/
 ## FUNCTION TO DELETE A PRODUCT
-
+/*
 void delete_product()
 
 {
@@ -246,9 +250,9 @@ rename("Temp.dat","Canteen.dat");
 cout<<"\n\n\tRecord Deleted Successfully...";
 
 getch();
-
+*/
 ## FUNCTION TO DISPLAY THE PRICE LIST
-
+/*
 void menu()
 
 {
@@ -295,9 +299,9 @@ cout<<pr.retpno()<<"\t\t"<<pr.retname()<<"\t\t"<<pr.retprice()<<endl;
 fp.close();
 
 }
-
+*/
 FUNCTION TO PLACE ORDER AND MAKE BILL
-
+/*
 void place order()
 
 {
