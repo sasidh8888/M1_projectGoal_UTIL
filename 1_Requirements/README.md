@@ -16,3 +16,26 @@ chances that the waiters will be unavailable and the users can directly order th
 food to the chef online by using this application. The user will have a username and a 
 password, by using which they can login into the system. 
 This implies that the customer is the regular user of the Canteen.
+
+## HIGH and low level req
+## PRODUCT PERSPECTIVE
+
+The system will be developed using PHP, HTML, CSS and other Web tools.
+
+Product Functions
+
+The product developed will provide an easy access to the user to manage and alter the
+
+canteen automation according to the need.
+
+General Constraints
+
+The cost constraint includes ordering additional hardware to run the new system
+
+• No current web-site . Security must be upgraded for on-line searching.
+
+Assumptions
+
+The system will support all browsers.
+
+The processor must be at least Dual cored and can be any other latest ones etc.
