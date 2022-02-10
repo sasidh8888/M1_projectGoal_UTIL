@@ -10,3 +10,9 @@ user-friendly and attractive. The interface between the user and the system will
 Buttons: The button is activated when the user will click on the left click of the mouse within the bounds of the button. And thus the action associated with it will be carried out.
 
 ## Identifying features
+Application the work of the waiter is reduced and we can also say that the work is nullified. 
+The benefit of this is that if there is a rush in the Canteen then there will be
+chances that the waiters will be unavailable and the users can directly order the 
+food to the chef online by using this application. The user will have a username and a 
+password, by using which they can login into the system. 
+This implies that the customer is the regular user of the Canteen.
