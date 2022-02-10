@@ -73,6 +73,31 @@ total=amt;
 
 }
 
+
+ void display_all
+
+clrscr();
+
+cout<<"\n\n\n\t\tDISPLAY ALL RECORD\n\n";
+
+fp.open("Canteen.dat",ios::in);
+
+while(fp.read((char*)&pr,sizeof(product)))
+
+pr.show_product():
+cout<<"\n\n========\n";
+
+
+
+getch();
+}
+
+fp.close();
+
+getch();
+
+}
+
 fp.read((char*)&pr,sizeof(product));
 
 }
