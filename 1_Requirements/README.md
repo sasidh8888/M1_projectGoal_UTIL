@@ -39,3 +39,19 @@ Assumptions
 The system will support all browsers.
 
 The processor must be at least Dual cored and can be any other latest ones etc.
+
+## HARDWARE REQUIREMENT
+
+Here's what you Need to Use the canteen automation system for online records:
+
+• 20 GB HDD
+
+256 MB RAM
+
+• Pentium IV Processor Input Devices: Keyboard, Mouse
+
+Output Devices: Monitor, Printer
+
+## SOFTWARE REQUIREMENT
+
+Operating System: Window XP and above Browsers: Chrome or any other latest web page supporting browser
