@@ -1,4 +1,5 @@
- ## EXTERNAL INTERFACE REQUIREMENTS
+## SWOT analysis
+## EXTERNAL INTERFACE REQUIREMENTS
 
 The external system is to assume full responsibility for storage functions as well as warehouse management and warehouse control for an entire warehouse. The interfaces in this section are specified by documenting: the name and description of each scheme, source or input, destination or output, ranges, accuracy and tolerances, units of measure, timing, display formats, and organization, and data formats.
 
