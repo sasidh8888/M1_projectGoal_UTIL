@@ -1,13 +1,12 @@
-## SWOT analysis
-## EXTERNAL INTERFACE REQUIREMENTS
+## SWOT analys is HOW ITS BENEFITS 
+## HOW ITS BENEFITS A CANTEEN
+Canteen automation system saves the canteen's time by avoiding the food orders over the phone that has to be done manually.
+By making the ordering process fully automated, it increases the cost effectiveness and productivity of the canteen with a less manpower.
+In addition, it keeps you one step ahead of your competitors who don't serve online.**
 
-The external system is to assume full responsibility for storage functions as well as warehouse management and warehouse control for an entire warehouse. The interfaces in this section are specified by documenting: the name and description of each scheme, source or input, destination or output, ranges, accuracy and tolerances, units of measure, timing, display formats, and organization, and data formats.
+## HOW IT BENEFITS A CUSTOMER
 
-The user interface required to be developed for the system should be
-
-user-friendly and attractive. The interface between the user and the system will be WIMP (Windows, Icons, Menu, Pointers) keeping in mind that the system is to be run through a web browser. All operations will be off point and click nature with all navigations performed through windows of the system specifically buttons and menus:
-
-Buttons: The button is activated when the user will click on the left click of the mouse within the bounds of the button. And thus the action associated with it will be carried out.
+Now a day's people are getting busy with their work, making the canteen online even saves customers time undoubtedly. Is allow them to order food online by creating a flexible ordering platform and serve them in time. The customer can select the food items from the online menu on the canteen website and can order accordingly as per their interest. In fact, they can place order the food orders within their budget by adding or removing the food items as per the cost variations
 
 ## Identifying features
 Application the work of the waiter is reduced and we can also say that the work is nullified. 
