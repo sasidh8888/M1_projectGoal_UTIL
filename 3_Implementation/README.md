@@ -15,11 +15,13 @@ CLASS USED
 ## 3_impl code
 ## FUNCTION TO PLACE ORDER AND MAKE BILL
 /*
+
 void place order()
 
 {
 
 int order_arr[50],quan[50],c=0;
+
 float amt,total=0;
 
 char ch='Y';
@@ -52,7 +54,7 @@ cin>>ch;
 
 while (ch=='y' || ch=='Y');
 
-cout<<"\n\n*****BILL*\n";
+cout<<"\n\n*****BILL****\n";
 for(int x=0; x<=c;x++)
 
 (
@@ -77,7 +79,8 @@ total=amt;
 ## Doxygen com code
 ## FUNCTION TO READ ALL RECORDS FROM FILE
 /*
- void display_all
+
+void display_all
 
 clrscr();
 
@@ -88,6 +91,7 @@ fp.open("Canteen.dat",ios::in);
 while(fp.read((char*)&pr,sizeof(product)))
 
 pr.show_product():
+
 cout<<"\n\n========\n";
 
 
@@ -120,6 +124,7 @@ getch();
 ## compile the code
 ## FUNCTION TO MODIFY RECORD OF FILE
 */
+
 void modify_product()
 (
 
@@ -132,6 +137,7 @@ cout<<"\n\n\tMODIFY PRODUCT";
 cout<<"\n\n\tPlease Enter The Product Number: ";
 
 cin>>no;
+
 fp.open("Canteen.dat",ios::inlios::out);
 
 while(fp.read((char*)&pr,sizeof(product)) && found==0)
@@ -155,6 +161,7 @@ fp.seekp(pos,ios::cur);
 fp.write((char*)&pr,sizeof(product));
 
 cout<<"\n\n\t Record Updated Successfuly";
+
 found=1;
 
 getch();
@@ -169,6 +176,7 @@ if(found==0)
 */
 ## FUNCTION TO READ SPECIFIC RECORD FROM FILE
 /*
+
 void display_sp(int n)
 
 {
@@ -203,6 +211,7 @@ getch();
 */
 ## FUNCTION TO DELETE A PRODUCT
 /*
+
 void delete_product()
 
 {
@@ -212,6 +221,7 @@ int no;
 clrscr();
 
 cout<<"\n\n\n\nDELETE PRODUCT";
+
 cout<<"\n\nPlease Enter The product no. of The Product You Want To
 
 Delete:";
@@ -253,6 +263,7 @@ getch();
 */
 ## FUNCTION TO DISPLAY THE PRICE LIST
 /*
+
 void menu()
 
 {
@@ -302,11 +313,13 @@ fp.close();
 */
 FUNCTION TO PLACE ORDER AND MAKE BILL
 /*
+
 void place order()
 
 {
 
 int order_arr[50],quan[50],c=0;
+
 float amt,total=0;
 
 char ch='Y';
@@ -340,6 +353,7 @@ cin>>ch;
 while (ch=='y' || ch=='Y');
 
 cout<<"\n\n*****BILL*\n";
+
 for(int x=0; x<=c;x++)
 
 (
@@ -367,6 +381,7 @@ fp.read((char*)&pr,sizeof(product));
 
 fp.close();
 }
+
 }
 
 cout<<"\n\n\t\t\t\t\tTOTAL = "<<total;
