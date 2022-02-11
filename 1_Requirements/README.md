@@ -1,4 +1,4 @@
-## SWOT analysisHOW ITS BENEFITS A CANTEEN
+## SWOT analys is HOW ITS BENEFITS 
 ## HOW ITS BENEFITS A CANTEEN
 Canteen automation system saves the canteen's time by avoiding the food orders over the phone that has to be done manually.
 By making the ordering process fully automated, it increases the cost effectiveness and productivity of the canteen with a less manpower.
