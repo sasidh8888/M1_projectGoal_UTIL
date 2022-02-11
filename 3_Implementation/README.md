@@ -21,6 +21,7 @@ void place order()
 {
 
 int order_arr[50],quan[50],c=0;
+
 float amt,total=0;
 
 char ch='Y';
@@ -53,7 +54,7 @@ cin>>ch;
 
 while (ch=='y' || ch=='Y');
 
-cout<<"\n\n*****BILL*\n";
+cout<<"\n\n*****BILL****\n";
 for(int x=0; x<=c;x++)
 
 (
@@ -90,6 +91,7 @@ fp.open("Canteen.dat",ios::in);
 while(fp.read((char*)&pr,sizeof(product)))
 
 pr.show_product():
+
 cout<<"\n\n========\n";
 
 
@@ -135,6 +137,7 @@ cout<<"\n\n\tMODIFY PRODUCT";
 cout<<"\n\n\tPlease Enter The Product Number: ";
 
 cin>>no;
+
 fp.open("Canteen.dat",ios::inlios::out);
 
 while(fp.read((char*)&pr,sizeof(product)) && found==0)
@@ -158,6 +161,7 @@ fp.seekp(pos,ios::cur);
 fp.write((char*)&pr,sizeof(product));
 
 cout<<"\n\n\t Record Updated Successfuly";
+
 found=1;
 
 getch();
@@ -217,6 +221,7 @@ int no;
 clrscr();
 
 cout<<"\n\n\n\nDELETE PRODUCT";
+
 cout<<"\n\nPlease Enter The product no. of The Product You Want To
 
 Delete:";
@@ -314,6 +319,7 @@ void place order()
 {
 
 int order_arr[50],quan[50],c=0;
+
 float amt,total=0;
 
 char ch='Y';
@@ -347,6 +353,7 @@ cin>>ch;
 while (ch=='y' || ch=='Y');
 
 cout<<"\n\n*****BILL*\n";
+
 for(int x=0; x<=c;x++)
 
 (
@@ -374,6 +381,7 @@ fp.read((char*)&pr,sizeof(product));
 
 fp.close();
 }
+
 }
 
 cout<<"\n\n\t\t\t\t\tTOTAL = "<<total;
